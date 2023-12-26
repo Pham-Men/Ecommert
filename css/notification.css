@@ -1,0 +1,35 @@
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.des {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 36px 0;
+}
+
+.item {
+    margin: 18px 0;
+}
+
+.title-item {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.des-item, label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.abc:checked {
+    background: var(--primary-color);
+}
+
+.abc {
+    color: #088a08;
+    border-color: #088a08;
+}

@@ -1,0 +1,65 @@
+.title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.title-item {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 340px;
+}
+
+.btn__green {
+    font-size: 14px;
+    font-weight: 600;
+    background: var(--primary-color);
+    color: white;
+    margin-bottom: 48px;
+    margin-top: 16px;
+}
+
+.btn__green:hover {
+    background: var(--primary-color-hover);
+    color: white;
+}
+
+.btn__red {
+    border: 1px var(--red-color) solid;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--red-color);
+    margin-bottom: 48px;
+    margin-top: 16px;
+}
+
+.btn__red:hover {
+    background: var(--red-color);
+    color: white;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+    line-height: 32px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-color-hover)
+}

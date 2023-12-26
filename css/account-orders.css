@@ -1,0 +1,97 @@
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.title-th {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-darkGrey);
+}
+
+.title-th tr th{
+    background: rgb(240, 243, 242);
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+td {
+    height: 82px;
+    margin: 0 20px;
+}
+
+img {
+    width: 60px;
+}
+
+.des {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.heavy {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--gray-color-text);
+}
+
+.num {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--text-darkGrey);
+}
+
+.num:hover {
+    color: var(--green-color)
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.item {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.badge {
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+}
+
+.badge__orange {
+    background: rgb(255, 193, 7);
+}
+
+.badge__green {
+    background: var(--green-color);
+}
+
+.badge__red {
+    background: var(--red-color);
+}
+
+.price {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.icon {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-darkGrey);
+}

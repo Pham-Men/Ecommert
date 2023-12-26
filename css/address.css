@@ -1,0 +1,87 @@
+:root {
+    --primary-color: rgb(10, 173, 10);
+    --primary-color-hover: rgb(9, 147, 9);
+    --red-color: rgb(219, 48, 48);
+    --gray-color-text: rgba(92, 108, 117, 0.75);
+    --star-color: #ffc107;
+    --text-darkGrey: rgb(92, 108, 117)
+}
+.address .title button {
+    color: var(--primary-color);
+    border: 1px var(--primary-color) solid;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.address .title h3 {
+    font-weight: 600;
+}
+
+.address .title button:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.address .content .wrap {
+    width: 266px;
+    border: 1px rgb(227, 230, 229) solid;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.address .content .text {
+    color: var(--text-darkGrey);
+    font-size: 14px;
+    margin: 28px 14px;
+    font-weight: 600;
+}
+
+.select {
+    margin-left: 14px;
+}
+
+.select:checked {
+    background: var(--primary-color);
+}
+
+.address .content .iconText {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 14px;
+}
+
+.address .content button {
+    margin-bottom: 24px;
+    margin-left: 14px;
+}
+
+.directional {
+    margin-bottom: 30px;
+}
+
+.edit .delete {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.edit {
+    color: black;
+    margin-left: 14px;
+}
+
+.edit:hover {
+    color: var(--primary-color);
+}
+
+.delete {
+    margin-left: 16px;
+    color: red;
+}
+
+.link {
+    color: var(--primary-color);
+    margin-left: 7px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
