@@ -13,11 +13,6 @@
     text-decoration: none;
 }
 
-.text a {
-    text-decoration: none;
-    color: var(--primary-color);
-}
-
 .content {
     margin-top: 100px;
     margin-bottom: 60px;
@@ -28,11 +23,26 @@
     font-weight: 600;
 }
 
-.des {
+.des, text {
     font-size: 14px;
     font-weight: 500;
     color: var(--text-darkGrey);
     margin-bottom: 40px;
+}
+
+.wrapInput {
+    border-radius: 8px;
+    border: 1px rgb(239, 240, 240) solid;
+}
+
+.wrapInput input{
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.icon {
+    color: var(--text-darkGrey);
+    margin-right: 18px;
+    line-height: 36px;
 }
 
 .button {
@@ -49,14 +59,11 @@
     background: var(--primary-color-hover);
 }
 
-.buttonBack {
-    font-size: 14px;
-    font-weight: 600;
-    color: black;
-    width: 100%;
-    background: var(--gray-color-text);
+.text a {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
-.buttonBack:hover {
-    background: var(--text-darkGrey);
+text a:hover {
+    color: var(--primary-color-hover);
 }

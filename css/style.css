@@ -15,6 +15,72 @@
     --green-color: rgb(25, 135, 84);
 }
 
+.linkPrimary {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.linkPrimary:hover {
+    color: var(--primary-color-hover)
+}
+
+.textPrimary {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.badge {
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+}
+
+.badge__orange {
+    background: rgb(255, 193, 7);
+}
+
+.badge__green {
+    background: var(--green-color);
+}
+
+.badge__red {
+    background: var(--red-color);
+}
+
+.btnPrimary {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background: var(--primary-color);
+}
+
+.btnPrimary:hover {
+    color: white;
+    background: var(--primary-color-hover);
+}
+
+.btnBlack {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background: black;
+}
+
+.btnBlack:hover {
+    color: white;
+    background: rgb(38, 64, 75);
+}
+
+
+
+
+
+
+
+
 .side-bar, .categories, .banner-img, .popular-products, .dailyBestSells, .information {
     margin: 60px 0 10px;
 }
@@ -358,6 +424,14 @@
     display: block;
 }
 
+.item-listProduct .directional .item a i {
+    color: var(--gray-color-text);
+}
+
+.item-listProduct .directional .item:hover i{
+    color: white;
+}
+
 .badge-green {
     background: rgb(25, 135, 84);
 }
@@ -482,6 +556,27 @@
     line-height: 20px;
 }
 
+.information .des a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.information .des a:hover {
+    color: var(--primary-color-hover);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -538,6 +633,15 @@
     line-height: 28px;
 }
 
+.footer .social .text a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.footer .social .text a:hover {
+    color: var(--primary-color-hover);
+}
+
 .footer .social .follow .icon {
     width: 28px;
     height: 28px;
@@ -546,6 +650,11 @@
     color: var(--gray-color-text);
     text-align: center;
     line-height: 28px;
+}
+
+.footer .social .follow .icon:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .footer .social .follow .item {

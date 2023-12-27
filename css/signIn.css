@@ -1,0 +1,93 @@
+.navbar {
+    padding: 12px 0;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 31px;
+
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 120px;
+}
+
+.form-signIn {
+    width: 436px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.des {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+    margin-bottom: 40px;
+}
+
+.wrap-input {
+    width: 408px;
+    border-radius: 8px;
+    border: 1px rgb(239, 240, 240) solid;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.input {
+    width: 408px;
+}
+
+.color-transparent {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.icon {
+    color: var(--text-darkGrey);
+    margin-right: 18px;
+    line-height: 36px;
+}
+
+.formCheck label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.formText {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.formText a {
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+
+.formText a:hover {
+    color: var(--primary-color-hover);
+}
+
+.button {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 12px 0;
+    color: white;
+    width: 100%;
+    background: var(--primary-color);
+}
+
+.button:hover {
+    color: white;
+    background: var(--primary-color-hover);
+}

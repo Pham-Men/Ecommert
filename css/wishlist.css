@@ -1,0 +1,65 @@
+.title {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.des {
+    margin-bottom: 20px;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: var(--primary-color-hover);
+}
+
+.titleTable th {
+    background: rgb(240, 243, 242);
+}
+
+.price {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.amount {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.icon {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-darkGrey);
+}
+
+.delete {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    background: black;
+    border-radius: 6px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 4px;
+    bottom: 100%;
+    left: -14px;
+    display: none;
+}
+
+.wrap-icon:hover .delete{
+    display: block;
+}
+
+.wrap-icon:hover .triangle{
+    display: block;
+}
